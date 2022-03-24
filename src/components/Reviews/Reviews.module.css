@@ -1,0 +1,16 @@
+.ReviewsList {
+  display: flex;
+  flex-direction: column;
+  padding: 0 3%;
+  list-style-type: none;
+  gap: 20px;
+  background-image: linear-gradient(0deg, #ffffff, #c3ceff, #ffffff);
+}
+
+.ReviewItem {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 5px 1px #969696;
+  border-radius: 10px;
+  padding: 0 15px;
+}

@@ -1,0 +1,26 @@
+.CastList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  list-style-type: none;
+  justify-content: center;
+  padding: 0 3%;
+  background-image: linear-gradient(0deg, #ffffff, #c3ceff, #ffffff);
+}
+
+.CastItem {
+  box-shadow: 0 0 5px 1px #b8b8b8;
+  border-radius: 5px;
+}
+
+.CastImage {
+  border-radius: 5px;
+}
+
+.ActorName {
+  font-weight: bold;
+}
+
+.CharacterName {
+  color: #b16400;
+}

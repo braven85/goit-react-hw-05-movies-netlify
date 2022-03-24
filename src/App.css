@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px 0;
+  background-image: linear-gradient(0deg, #ffffff, #c3ceff, #ffffff);
+}
+
+.navigation__item {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.navigation__item:focus,
+.navigation__item:hover {
+  color: #ff0000;
+}
+
+.active {
+  color: #ff0000;
+}
+
+.inactive {
+  color: #000000;
+}

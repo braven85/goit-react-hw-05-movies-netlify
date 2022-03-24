@@ -1,0 +1,83 @@
+.GoBackButton {
+  border: 2px solid #000000;
+  background-color: #ffffff;
+  font-size: larger;
+  font-weight: bold;
+  padding: 6px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.GoBackButton:focus,
+.GoBackButton:hover {
+  cursor: pointer;
+  background-color: #000000;
+  border: 2px solid #000000;
+  color: white;
+}
+
+.GoBackButton:active {
+  cursor: pointer;
+  background-color: #00acca;
+  border: 2px solid #00acca;
+  box-shadow: 0 0 5px 2px #00acca;
+  color: white;
+}
+
+.SearchForm {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.SearchInput {
+  border: 2px solid black;
+  border-radius: 5px;
+  font-size: large;
+  padding: 5px;
+}
+
+.SearchInput:focus {
+  outline: none;
+  box-shadow: 0 0 5px 5px #67aeff;
+}
+
+.SearchButton {
+  border-radius: 5px;
+  border: 2px solid #000000;
+  color: #000000;
+  background-color: #ffffff;
+  padding: 3px 10px 3px 10px;
+  font-size: large;
+  font-weight: bold;
+}
+
+.SearchButton:focus,
+.SearchButton:hover {
+  cursor: pointer;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.SearchButton:active {
+  background-color: #00acca;
+  box-shadow: 0 0 5px 2px #00acca;
+  border: 2px solid #00acca;
+}
+
+.FoundMoviesList {
+  list-style-type: none;
+  background-image: linear-gradient(0deg, #ffffff, #c3ceff, #ffffff);
+}
+
+.FoundMovieItem {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 500;
+  font-size: larger;
+}
+
+.FoundMovieItem:focus,
+.FoundMovieItem:hover {
+  color: #ff0000;
+}
