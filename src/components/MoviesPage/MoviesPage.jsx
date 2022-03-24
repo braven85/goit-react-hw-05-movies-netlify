@@ -48,7 +48,7 @@ function MoviesPage() {
       return;
     }
     fetchSearchedMovies(query);
-  }, [query, setSearchQuery]);
+  }, [query, setSearchQuery, movies]);
 
   return (
     <>
